@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
-import './population.css'
+import './PopulationGraph.css'
 class PopulationGraph extends Component {
   constructor(props) {
     super(props);
