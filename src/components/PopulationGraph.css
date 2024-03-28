@@ -53,14 +53,18 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      width: 100%;
+      margin:5%
   }
+  .full {
+    left:50%;
+   
+}
+
 }
 
 @media only screen and (max-width: 576px) {
-  .graph {
-      margin-left: 5%;
-  }
-
+ 
   .population-chart {
       width: 95%; 
   }
